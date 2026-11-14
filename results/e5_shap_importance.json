@@ -1,0 +1,87 @@
+{
+  "top_10_before_leakage": [
+    {
+      "Feature": "Flow IAT Min",
+      "Mean_SHAP_Value": 0.04073608610909548
+    },
+    {
+      "Feature": "Bwd Packet Length Std",
+      "Mean_SHAP_Value": 0.0333158631291384
+    },
+    {
+      "Feature": "Bwd Packet Length Mean",
+      "Mean_SHAP_Value": 0.026459754672313738
+    },
+    {
+      "Feature": "Avg Bwd Segment Size",
+      "Mean_SHAP_Value": 0.022500479329104317
+    },
+    {
+      "Feature": "Flow IAT Max",
+      "Mean_SHAP_Value": 0.017844522553776523
+    },
+    {
+      "Feature": "Subflow Bwd Bytes",
+      "Mean_SHAP_Value": 0.015358171992771575
+    },
+    {
+      "Feature": "Min Packet Length",
+      "Mean_SHAP_Value": 0.015326636840328048
+    },
+    {
+      "Feature": "Bwd Packet Length Max",
+      "Mean_SHAP_Value": 0.014662387356476535
+    },
+    {
+      "Feature": "Bwd IAT Max",
+      "Mean_SHAP_Value": 0.014084816599552148
+    },
+    {
+      "Feature": "Packet Length Variance",
+      "Mean_SHAP_Value": 0.012930401946064301
+    }
+  ],
+  "top_10_after_leakage": [
+    {
+      "Feature": "Bwd Packet Length Mean",
+      "Mean_SHAP_Value": 0.02948261466996227
+    },
+    {
+      "Feature": "Avg Bwd Segment Size",
+      "Mean_SHAP_Value": 0.02801224424775619
+    },
+    {
+      "Feature": "Bwd Packet Length Std",
+      "Mean_SHAP_Value": 0.025745058612999343
+    },
+    {
+      "Feature": "Flow IAT Min",
+      "Mean_SHAP_Value": 0.024773010853682848
+    },
+    {
+      "Feature": "Flow IAT Max",
+      "Mean_SHAP_Value": 0.019343656104381306
+    },
+    {
+      "Feature": "Bwd Packet Length Max",
+      "Mean_SHAP_Value": 0.016212109422900373
+    },
+    {
+      "Feature": "Flow IAT Std",
+      "Mean_SHAP_Value": 0.015926907568279792
+    },
+    {
+      "Feature": "Fwd IAT Min",
+      "Mean_SHAP_Value": 0.01439818909370103
+    },
+    {
+      "Feature": "Bwd IAT Min",
+      "Mean_SHAP_Value": 0.014043329973847635
+    },
+    {
+      "Feature": "Bwd IAT Max",
+      "Mean_SHAP_Value": 0.013934056386515717
+    }
+  ],
+  "figure_path": "C:\\Users\\HUAWEI\\.gemini\\antigravity\\scratch\\network-intrusion-detection-cicids2017\\results\\figures\\shap_leakage_comparison.png"
+}

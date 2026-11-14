@@ -1,0 +1,30 @@
+{
+  "metric": "MCC",
+  "model_a": {
+    "name": "Random Forest",
+    "mean": 0.9325960224129709,
+    "std": 0.011803650523724516,
+    "scores": [
+      0.9242495810848892,
+      0.9242495810848892,
+      0.9492889050691344
+    ]
+  },
+  "model_b": {
+    "name": "XGBoost",
+    "mean": 0.9574038257753562,
+    "std": 0.03198563657251055,
+    "scores": [
+      1.0,
+      0.9492889050691344,
+      0.9229225722569341
+    ]
+  },
+  "difference_mean": -0.024807803362385233,
+  "wilcoxon_stat": 2.0,
+  "wilcoxon_pvalue": 0.75,
+  "paired_ttest_stat": -0.8415474213916272,
+  "paired_ttest_pvalue": 0.4886266851629596,
+  "statistically_significant_at_0.05": false,
+  "conclusion": "No statistically significant difference observed (p=0.7500 >= 0.05)."
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cicids2017-nids"
+version = "1.0.0"
+description = "Explainable, Leakage-Free Machine Learning Network Intrusion Detection System"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Anannya Das", email = "23000036@buid.ac.ae" },
+    { name = "Bhagya Sijumon", email = "23000742@buid.ac.ae" }
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+pythonpath = [
+    "."
+]

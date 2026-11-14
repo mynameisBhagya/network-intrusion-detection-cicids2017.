@@ -1,0 +1,58 @@
+{
+  "none": {
+    "random_forest": {
+      "mcc_mean": 0.9325960224129709,
+      "recall_mean": 0.9111111111111111,
+      "fpr_mean": 0.0,
+      "macro_f1_mean": 0.9650893851319955
+    },
+    "xgboost": {
+      "mcc_mean": 0.9574038257753562,
+      "recall_mean": 0.9555555555555556,
+      "fpr_mean": 0.005952380952380952,
+      "macro_f1_mean": 0.9784295419227829
+    }
+  },
+  "class_weight": {
+    "random_forest": {
+      "mcc_mean": 0.9316872310769208,
+      "recall_mean": 0.9444444444444443,
+      "fpr_mean": 0.017857142857142856,
+      "macro_f1_mean": 0.9655246969391541
+    },
+    "xgboost": {
+      "mcc_mean": 0.9574038257753562,
+      "recall_mean": 0.9555555555555556,
+      "fpr_mean": 0.005952380952380952,
+      "macro_f1_mean": 0.9784295419227829
+    }
+  },
+  "smote": {
+    "random_forest": {
+      "mcc_mean": 0.9231170478951686,
+      "recall_mean": 0.9444444444444443,
+      "fpr_mean": 0.023809523809523808,
+      "macro_f1_mean": 0.9615054068725136
+    },
+    "xgboost": {
+      "mcc_mean": 0.9318191420790911,
+      "recall_mean": 0.9555555555555556,
+      "fpr_mean": 0.023809523809523808,
+      "macro_f1_mean": 0.9658034109655995
+    }
+  },
+  "smote_enn": {
+    "random_forest": {
+      "mcc_mean": 0.8803262357262134,
+      "recall_mean": 0.888888888888889,
+      "fpr_mean": 0.023809523809523808,
+      "macro_f1_mean": 0.9392039882314481
+    },
+    "xgboost": {
+      "mcc_mean": 0.8886393734827828,
+      "recall_mean": 0.9,
+      "fpr_mean": 0.023809523809523808,
+      "macro_f1_mean": 0.9437354600614745
+    }
+  }
+}

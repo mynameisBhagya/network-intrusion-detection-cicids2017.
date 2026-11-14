@@ -1,0 +1,74 @@
+{
+  "BENIGN": {
+    "technique_id": "None",
+    "technique_name": "Normal Authorized Traffic",
+    "tactic": "Operational Normalcy",
+    "severity": "Informational",
+    "description": "Legitimate enterprise communications including web browsing, database queries, and email traffic.",
+    "mitigation": "Continuous baseline monitoring and traffic anomaly detection."
+  },
+  "PortScan": {
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery",
+    "tactic": "Discovery",
+    "severity": "Medium",
+    "description": "Adversary probes remote systems across IP addresses and port ranges to discover active services and vulnerabilities.",
+    "mitigation": "Stateful firewall rate-limiting, egress filtering, port-knocking, and immediate intrusion alert generation."
+  },
+  "Brute Force": {
+    "technique_id": "T1110",
+    "technique_name": "Brute Force: Credential Guessing",
+    "tactic": "Credential Access",
+    "severity": "High",
+    "description": "Automated repetitive login attempts against FTP (FTP-Patator) or SSH (SSH-Patator) endpoints.",
+    "mitigation": "Strict account lockout thresholds, mandatory multi-factor authentication (MFA), fail2ban host-level daemon."
+  },
+  "DoS": {
+    "technique_id": "T1498",
+    "technique_name": "Network Denial of Service",
+    "tactic": "Impact",
+    "severity": "High",
+    "description": "Denial of Service attacks utilizing application exhaustion (Slowloris, Slowhttptest, DoS Hulk, GoldenEye) to degrade server responsiveness.",
+    "mitigation": "Connection timeout tuning, request header size restrictions, rate limiting per source IP."
+  },
+  "DDoS": {
+    "technique_id": "T1498.001",
+    "technique_name": "Direct Network Flood",
+    "tactic": "Impact",
+    "severity": "Critical",
+    "description": "Distributed high-volume volumetric flooding intended to overwhelm network infrastructure and perimeter firewalls.",
+    "mitigation": "BGP Anycast routing, upstream cloud scrubbing centers (e.g., Cloudflare, Akamai), upstream ISP blackholing."
+  },
+  "Web Attack": {
+    "technique_id": "T1190",
+    "technique_name": "Exploit Public-Facing Application",
+    "tactic": "Initial Access",
+    "severity": "Critical",
+    "description": "Exploitation of web vulnerabilities including SQL Injection, Cross-Site Scripting (XSS), and administrative login bypass.",
+    "mitigation": "Web Application Firewall (WAF) deployment, parameterized SQL queries, secure coding guidelines (OWASP Top 10)."
+  },
+  "Botnet": {
+    "technique_id": "T1071",
+    "technique_name": "Application Layer Protocol: C2",
+    "tactic": "Command and Control",
+    "severity": "Critical",
+    "description": "Compromised hosts beaconing out to external command and control servers (ARES botnet) to receive adversary instructions.",
+    "mitigation": "DNS sinkholing, TLS interception & certificate pinning verification, dynamic threat intelligence feed enforcement."
+  },
+  "Infiltration": {
+    "technique_id": "T1210",
+    "technique_name": "Exploitation of Remote Services",
+    "tactic": "Lateral Movement",
+    "severity": "Critical",
+    "description": "Adversary exploiting vulnerable network services or secondary internal payloads following perimeter breach.",
+    "mitigation": "Zero Trust network architecture, micro-segmentation, rapid host-level CVE patching."
+  },
+  "Heartbleed": {
+    "technique_id": "T1212",
+    "technique_name": "Exploitation for Credential Access",
+    "tactic": "Credential Access",
+    "severity": "Critical",
+    "description": "Exploitation of OpenSSL TLS heartbeat extension buffer over-read (CVE-2014-0160) leaking private server memory contents.",
+    "mitigation": "Upgrade OpenSSL to patched versions, immediately revoke and re-issue all SSL/TLS private certificates."
+  }
+}
