@@ -1,10 +1,3 @@
-"""
-Configuration module for CIC-IDS2017 Machine Learning Network Intrusion Detection System.
-Aligned with NIST AI RMF, NIST SP 800-94, and MITRE ATT&CK Framework.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD) - CSCY413 Special Topics in Cybersecurity
-"""
-
 import os
 from pathlib import Path
 
