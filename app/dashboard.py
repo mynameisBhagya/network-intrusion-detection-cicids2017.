@@ -1,9 +1,4 @@
-"""
-Interactive Streamlit Dashboard for Network Intrusion Detection & Multi-Class Attack Classification.
-Comprehensive UI for Deliverable 2: Experiments E1-E5, MITRE ATT&CK Triage, and SHAP Explainability.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD) - CSCY413 Special Topics in Cybersecurity
-"""
+
 
 import os
 import sys
