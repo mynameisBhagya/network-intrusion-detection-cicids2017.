@@ -2,8 +2,6 @@
 SHAP (SHapley Additive exPlanations) Explainability Engine for NIDS.
 Supports Experiment E5: Comparative interpretability analysis before and after data leakage removal.
 Operationalizes NIST AI RMF requirement for reliable, explainable AI decisions.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import os
