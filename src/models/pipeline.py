@@ -2,8 +2,6 @@
 Pipeline Orchestrator for Network Intrusion Detection (CIC-IDS2017).
 Handles feature scaling, resampling (SMOTE / SMOTE-ENN), and training protocol
 strictly on training splits to prevent data leakage and test set contamination.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import time
