@@ -1,12 +1,6 @@
 # Machine Learning-Based Network Intrusion Detection & Multi-Class Attack Classification
 ### An Explainable, Leakage-Free, and Imbalance-Aware ML Benchmark on CIC-IDS2017
 
-[![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![CI Verification](https://github.com/anannya-bhagya/network-intrusion-detection-cicids2017/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
-[![Standards](https://img.shields.io/badge/Compliance-NIST%20SP%20800--94%20%7C%20NIST%20AI%20RMF-orange.svg)](https://csrc.nist.gov/pubs/sp/800/94/final)
-[![Taxonomy](https://img.shields.io/badge/Adversary%20Taxonomy-MITRE%20ATT%26CK-red.svg)](https://attack.mitre.org)
-
 **Course:** Special Topics in Cybersecurity (CSCY413_SEP26)  
 **Institution:** British University in Dubai (BUiD), UAE  
 **Authors:** Anannya Das (Student ID: `23000036`) & Bhagya Sijumon (Student ID: `23000742`)  
