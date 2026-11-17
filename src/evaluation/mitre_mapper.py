@@ -1,8 +1,6 @@
 """
 MITRE ATT&CK and NIST SP 800-94 Threat Intelligence Integration Module.
 Maps classified network intrusion anomalies to adversary tactics, techniques, and triage actions.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import logging
