@@ -1,11 +1,3 @@
-"""
-Preprocessing Pipeline for CIC-IDS2017 Dataset.
-Performs deterministic cleaning, constant column pruning, infinite/NaN handling,
-and leakage-conscious label encoding.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
-"""
-
 import logging
 from typing import Tuple, Dict, Any, List, Optional
 import pandas as pd
