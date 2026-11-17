@@ -6,9 +6,6 @@ Implements the 5 empirical classifiers evaluated in Deliverable 1:
 3. Random Forest
 4. XGBoost
 5. Support Vector Machine (Linear SVM with probability calibration for scalability)
-
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import logging
