@@ -2,8 +2,6 @@
 Master Pipeline Orchestration Script for CIC-IDS2017 ML Benchmark.
 Executes Experiments E1 through E5, conducts multi-seed statistical significance testing,
 persists trained model artifacts, and prepares hydrated results for the Streamlit dashboard.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import sys
