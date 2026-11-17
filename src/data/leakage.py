@@ -1,10 +1,3 @@
-"""
-Data Leakage Identification and Ablation Module for CIC-IDS2017.
-Operationalizes Gharghi & Dehghani (2026) and Arcos-Argudo et al. (2025) principles:
-prevents models from memorizing lab environment artifacts (IPs, Ports, Timestamps).
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
-"""
 
 import logging
 from typing import List, Tuple, Dict, Any
