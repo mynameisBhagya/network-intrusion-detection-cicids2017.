@@ -1,12 +1,3 @@
-"""
-Script to generate ultra-clear, high-contrast, publication-quality scientific figures (350 DPI).
-All images are dynamically generated from the REAL CIC-IDS2017 dataset (2,313,810 flows from 8 Parquet files)
-and real experimental benchmark results.
-
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD) - CSCY413
-"""
-
 import os
 import json
 import shutil
