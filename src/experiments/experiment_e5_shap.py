@@ -3,8 +3,6 @@ Experiment E5: SHAP Interpretability Analysis Before and After Leakage Removal.
 Validates explainability shifts: proves that leakage-free pipeline forces the model to rely
 on behavioral network flow features rather than lab artifact memorization.
 Operationalizes Ahmed et al. (2024) and Zhang et al. (2026).
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import json
