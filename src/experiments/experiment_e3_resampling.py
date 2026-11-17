@@ -2,8 +2,6 @@
 Experiment E3: Class Imbalance Remedies & Resampling Comparison.
 Compares None, Class Weighting, SMOTE, and SMOTE-ENN strictly fit on training splits.
 Operationalizes Singh et al. (2025) and Hemmatian et al. (2025).
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import json
