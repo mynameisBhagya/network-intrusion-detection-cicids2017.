@@ -1,9 +1,3 @@
-"""
-Data Loader for CIC-IDS2017 Dataset.
-Supports both Parquet and CSV formats with automated column normalization and memory optimization.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
-"""
 
 import os
 import logging
