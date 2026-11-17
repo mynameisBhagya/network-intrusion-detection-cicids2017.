@@ -5,11 +5,7 @@ Computes imbalance-sensitive and cybersecurity-oriented metrics:
 - Cohen's Kappa Coefficient
 - Macro-F1 and Weighted-F1
 - Per-class Recall and False Positive Rate (FPR)
-- Operational throughput & latency (ms per 1,000 flows)
-
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
-"""
+- Operational throughput & latency (ms per 1,000 flows)"""
 
 import logging
 from typing import Dict, Any, List, Optional
