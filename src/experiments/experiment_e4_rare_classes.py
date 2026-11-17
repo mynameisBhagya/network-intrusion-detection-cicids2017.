@@ -2,8 +2,6 @@
 Experiment E4: Rare Attack Class Evaluation and Grouping Strategy.
 Investigates detection performance on rare attack classes (Heartbleed, Infiltration, Web Attacks, Botnet).
 Operationalizes Aseel & Keyhanipour (2026) and Bulavas et al. (2021).
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import json
