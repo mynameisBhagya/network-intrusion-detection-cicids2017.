@@ -1,10 +1,3 @@
-"""
-Synthetic / Curated Data Generator for CIC-IDS2017.
-Generates statistically calibrated network flow records across all 8 canonical CIC-IDS2017 attack classes
-and BENIGN traffic, with authentic flow characteristics and known leakage vectors.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
-"""
 
 import logging
 from pathlib import Path
