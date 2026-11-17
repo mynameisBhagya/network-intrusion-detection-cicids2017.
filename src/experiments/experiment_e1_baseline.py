@@ -2,8 +2,6 @@
 Experiment E1: Baseline Classification with All Features (Including Potential Leakage).
 Evaluates all 5 classifiers (LR, DT, RF, XGBoost, SVM) in Binary and Multiclass settings
 across fixed random seeds.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import json
