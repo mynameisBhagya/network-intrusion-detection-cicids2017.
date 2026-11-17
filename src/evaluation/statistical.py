@@ -2,8 +2,6 @@
 Statistical Significance Engine for Classifier Comparison.
 Implements paired Wilcoxon signed-rank tests and paired t-tests across 5 fixed random seeds
 to validate experimental claims with statistical rigor (p < 0.05).
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import logging
