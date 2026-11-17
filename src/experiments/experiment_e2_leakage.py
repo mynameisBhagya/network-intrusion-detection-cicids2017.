@@ -2,8 +2,6 @@
 Experiment E2: Data Leakage Elimination & Performance Ablation.
 Reruns evaluation with known leakage features stripped (Destination Port, IP/time artifacts).
 Quantifies empirical score inflation caused by artifact memorization.
-Authors: Anannya Das (23000036) & Bhagya Sijumon (23000742)
-British University in Dubai (BUiD)
 """
 
 import json
